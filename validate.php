@@ -29,12 +29,15 @@ if(isset($_POST["login"])){
   $age = filter_input(INPUT_POST, "age",              
   
                       FILTER_VALIDATE_INT);   
+  $email = filter_input(INPUT_POST, "email",              
+  
+                      FILTER_VALIDATE_EMAIL);   
 
-  if(empty($age)){
-   echo "that number was't valid"; 
+  if(empty($email)){
+   echo "the email wasn't valid"; 
   }
   else{
-    echo "you are {$age} years old";
+    echo "you email is :  {$email}";
   }
 }
  
