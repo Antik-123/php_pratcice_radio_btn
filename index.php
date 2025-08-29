@@ -16,7 +16,7 @@
   </form> -->
 
 
-  <form action="./index.php" method="post">
+  <!-- <form action="./index.php" method="post">
     <input type="radio" name="creadit_card"  value="visa">
     visa <br>
     <input type="radio" name="credit_card" value="mastercard">
@@ -26,7 +26,7 @@
     <input type="submit" name="confirm" value="confirm">
   </form>
 </body>
-</html>
+</html> -->
 
  <?php
 
@@ -45,29 +45,39 @@
   //   }
   //  }
 
-  if(isset($_POST["confirm"])){
-    $credit_card = null;
+  // if(isset($_POST["confirm"])){
+  //   $credit_card = null;
 
-    if(isset($_POST["credit_card"])){
-       $credit_card = $_POST["credit_card"];
+  //   if(isset($_POST["credit_card"])){
+  //      $credit_card = $_POST["credit_card"];
       
 
-    }
-    if($credit_card == "visa"){
-      echo "you selected visa";
-    }
-    elseif($credit_card == "mastercard"){
-      echo "you selected visa";
-    }
-    elseif($credit_card == "American Express"){
-      echo "you selected American Express";
-    }
-    else{
-      echo "please make a selection";
-    }
+  //   }
+  //   if($credit_card == "visa"){
+  //     echo "you selected visa";
+  //   }
+  //   elseif($credit_card == "mastercard"){
+  //     echo "you selected visa";
+  //   }
+  //   elseif($credit_card == "American Express"){
+  //     echo "you selected American Express";
+  //   }
+  //   else{
+  //     echo "please make a selection";
+  //   }
    
     
-  }
+  // }
+
+
+  // function in php
+
+  // function happy_birthday(){
+  //   echo "happy birthday dear hasib";
+    
+  // }
+
+  // happy_birthday();
 
 
 
